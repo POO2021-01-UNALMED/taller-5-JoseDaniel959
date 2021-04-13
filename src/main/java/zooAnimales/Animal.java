@@ -1,5 +1,7 @@
 package zooAnimales;
 
+import java.util.ArrayList;
+
 import gestion.Zona;
 import zooAnimales.*;
 public class Animal {
@@ -28,16 +30,12 @@ public class Animal {
 	public static String totalPorTipo(){
 		
 		
-		Mamifero m[] = new Mamifero().getMamiferos();
-		//Anfibio a[] = new Anfibio().getAnfibios();
-		Ave aves[] = new Ave().getAves();
-		Pez p[] = new Pez().getPeces();
-		Reptil r[] = new Reptil().getReptiles();
+	
 		
 	
 		
-		//return	"Mamiferos " + (m.length - 1) + '\n' +  "Aves " + (aves.length - 1) + '\n' + "Reptiles " + (r.length - 1) + '\n' + "Peces " + (p.length - 1) + '\n' +"Anfibios " +  (a.length - 1);
-		return "hola";
+		return	"Mamiferos " + (Mamifero.getMamiferos()) + '\n' +  "Aves " + Ave.getAves() + '\n' + "Reptiles " + Reptil.getReptiles() + '\n' + "Peces " + Pez.getPeces() + '\n' +"Anfibios " +  (Anfibio.getAnfibios());
+	
 	}
 	
 	
