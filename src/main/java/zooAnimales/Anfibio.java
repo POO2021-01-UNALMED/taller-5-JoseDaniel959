@@ -15,10 +15,7 @@ public class Anfibio extends Animal {
 		super.nombre =nombre;
 		super.edad =edad;
 		super.habitat =habitat;
-		super.genero =nombre;
-		this.listado = listado;
-		this.ranas = ranas;
-		this.salamandras = salamandras;
+		super.genero =genero;
 		this.colorPiel = colorPiel;
 		this.venenoso = venenoso;
 		super.totalAnimales++;
