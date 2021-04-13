@@ -66,10 +66,14 @@ public class Animal {
 	public String toString() {
 		
 		
-	
-			return "Mi nombre es "  + nombre +  " tengo una edad de " + edad + " habito en " + habitat +" y mi genero es " + genero;
+		/*if(zona[0] !=null) {		
+			return "Mi nombre es "  + nombre +  " tengo una edad de " + edad + " habito en " + habitat +" y mi genero es " + genero + ", la zona en la que me ubico es " + zona[0].getNombre() + ", en el " + (zona[0].getZoo()).getNombre();
+		}
+		else {*/
+			return "Mi nombre es, "  + nombre +  " tengo una edad de, " + edad + " habito en " + habitat +" y mi genero es " + genero;
+		//}
 		
-		
+			//"Mi nombre es paloma, tengo una edad de 5, habito en ciudad y mi genero es F"
 	}
 
 
