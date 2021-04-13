@@ -34,7 +34,7 @@ public class Animal {
 		
 	
 		
-		return	"Mamiferos " + (Mamifero.getMamiferos()) + '\n' +  "Aves " + Ave.getAves() + '\n' + "Reptiles " + Reptil.getReptiles() + '\n' + "Peces " + Pez.getPeces() + '\n' +"Anfibios " +  (Anfibio.getAnfibios());
+		return	"Mamiferos " + (Mamifero.getMamiferos().size()) + '\n' +  "Aves " + Ave.getAves().size() + '\n' + "Reptiles " + Reptil.getReptiles().size() + '\n' + "Peces " + Pez.getPeces().size() + '\n' +"Anfibios " +  (Anfibio.getAnfibios().size());
 	
 	}
 	
@@ -74,5 +74,24 @@ public class Animal {
 			//"Mi nombre es paloma, tengo una edad de 5, habito en ciudad y mi genero es F"
 	}
 
+	/*
+	public static void main(String[] args) {
+		
+		new Anfibio();
+		new Anfibio();
+		new Mamifero();
+		new Mamifero();
+		new Mamifero();
+		new Reptil();
+		new Pez();
+		new Ave();
+		new Ave();
+		
+		System.out.println(Animal.totalPorTipo());
+		
+		
+	}
+*/
 
 }
+
