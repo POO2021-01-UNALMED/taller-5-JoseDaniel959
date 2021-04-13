@@ -22,7 +22,7 @@ public class Anfibio extends Animal {
 		int longitud_Array = listado.length;
 	
 		listado[longitud_Array] = new Anfibio(nombre,edad,habitat,genero,colorPiel,venenoso); 
-	
+		
 	}
 	
 	
