@@ -31,7 +31,7 @@ public class Mamifero extends Animal  {
 		
 		//int longitud_Array = listado.length;
 		//listado[longitud_Array] = new Mamifero(nombre,edad,habitat,genero,pelaje,patas); 
-	
+		
 	
 	}
 	
@@ -45,8 +45,10 @@ public class Mamifero extends Animal  {
 	public static Animal crearLeon(String nombre, int edad, String genero){
 		
 		leones++;
+		
 		return new Mamifero(nombre,edad,"selva",genero,true,4); 
 		
+	
 	}
 	
 	
