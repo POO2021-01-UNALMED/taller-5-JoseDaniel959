@@ -9,7 +9,8 @@ public class Zona {
 	private String nombre;
 	//private Zoologico zoo[];
 	private ArrayList<Zoologico> zoo = new ArrayList<Zoologico>();
-	private Animal animales[];
+	//private Animal animales[];
+	private ArrayList<Animal> animales = new ArrayList<Animal>();
 	
 	//constructor
 	public Zona(String nombre,Zoologico zoo) {
@@ -23,21 +24,20 @@ public class Zona {
 		
 	}
 	
-	public Animal[] getAnimales() {
+	public ArrayList<Animal> getAnimales() {
 		return animales;
 	}
 	
 	
 	public int cantidadAnimales(){
-		int totalanimales = this.animales.length;
-		return totalanimales;	
+		
+		return animales.size();	
 		
 	}
 	
 	
 	public void agregarAnimales(Animal a) {
-		int longitud = this.animales.length;
-		this.animales[longitud+1] = a;
+		animales.add(a);
 	}
 	
 

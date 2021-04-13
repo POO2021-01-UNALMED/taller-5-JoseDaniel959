@@ -25,7 +25,7 @@ public class Zoologico {
 		int totalanimales = 0;
 		Animal lista_de_animales[];
 		for (Zona z : zonas) {
-			totalanimales += z.getAnimales().length;
+			totalanimales += z.getAnimales().size();
 			}
 		
 		return totalanimales;	
