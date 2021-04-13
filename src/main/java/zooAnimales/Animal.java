@@ -29,15 +29,15 @@ public class Animal {
 		
 		
 		Mamifero m[] = new Mamifero().getMamiferos();
-		//Anfibio a[] = new Anfibio().getAnfibios();
+		Anfibio a[] = new Anfibio().getAnfibios();
 		Ave aves[] = new Ave().getAves();
 		Pez p[] = new Pez().getPeces();
 		Reptil r[] = new Reptil().getReptiles();
 		
 	
 		
-		//return	"Mamiferos " + (m.length - 1) + '\n' +  "Aves " + (aves.length - 1) + '\n' + "Reptiles " + (r.length - 1) + '\n' + "Peces " + (p.length - 1) + '\n' +"Anfibios " +  (a.length - 1);
-			return "hola";
+		return	"Mamiferos " + (m.length - 1) + '\n' +  "Aves " + (aves.length - 1) + '\n' + "Reptiles " + (r.length - 1) + '\n' + "Peces " + (p.length - 1) + '\n' +"Anfibios " +  (a.length - 1);
+			
 	}
 	
 	
@@ -66,12 +66,8 @@ public class Animal {
 	public String toString() {
 		
 		
-		if(zona[0] !=null) {		
-			return "Mi nombre es "  + nombre +  " tengo una edad de " + edad + " habito en " + habitat +" y mi genero es " + genero + ", la zona en la que me ubico es " + zona[0].getNombre() + ", en el " + (zona[0].getZoo()).getNombre();
-		}
-		else {
+	
 			return "Mi nombre es "  + nombre +  " tengo una edad de " + edad + " habito en " + habitat +" y mi genero es " + genero;
-		}
 		
 		
 	}
