@@ -29,15 +29,15 @@ public class Animal {
 		
 		
 		Mamifero m[] = new Mamifero().getMamiferos();
-		Anfibio a[] = new Anfibio().getAnfibios();
+		//Anfibio a[] = new Anfibio().getAnfibios();
 		Ave aves[] = new Ave().getAves();
 		Pez p[] = new Pez().getPeces();
 		Reptil r[] = new Reptil().getReptiles();
 		
 	
 		
-		return	"Mamiferos " + (m.length - 1) + '\n' +  "Aves " + (aves.length - 1) + '\n' + "Reptiles " + (r.length - 1) + '\n' + "Peces " + (p.length - 1) + '\n' +"Anfibios " +  (a.length - 1);
-	
+		//return	"Mamiferos " + (m.length - 1) + '\n' +  "Aves " + (aves.length - 1) + '\n' + "Reptiles " + (r.length - 1) + '\n' + "Peces " + (p.length - 1) + '\n' +"Anfibios " +  (a.length - 1);
+			return "hola";
 	}
 	
 	
