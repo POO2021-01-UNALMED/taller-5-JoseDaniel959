@@ -11,7 +11,7 @@ public class Animal {
 	int edad;
 	String habitat;
 	String genero;
-	Zona zona[];
+	 Zona zona[];
 	
 	
 	public Animal(String nombre,int edad,String habitat,String genero) {
@@ -64,12 +64,12 @@ public class Animal {
 	public String toString() {
 		
 		
-		/*if(zona[0] !=null) {		
+		if(zona != null) {		
 			return "Mi nombre es "  + nombre +  " tengo una edad de " + edad + " habito en " + habitat +" y mi genero es " + genero + ", la zona en la que me ubico es " + zona[0].getNombre() + ", en el " + (zona[0].getZoo()).getNombre();
 		}
-		else {*/
+		else {
 			return "Mi nombre es, "  + nombre +  " tengo una edad de, " + edad + " habito en " + habitat +" y mi genero es " + genero;
-		//}
+		}
 		
 			//"Mi nombre es paloma, tengo una edad de 5, habito en ciudad y mi genero es F"
 	}
@@ -86,8 +86,8 @@ public class Animal {
 		new Pez();
 		new Ave();
 		new Ave();
-		
-		System.out.println(Animal.totalPorTipo());
+		Ave an2 = new Ave("paloma", 5, "ciudad", "F", "gris");
+		System.out.println(an2);
 		
 		
 	}
