@@ -47,9 +47,9 @@ public class Anfibio extends Animal {
 		
 	}
 	
-	public Anfibio[] getAnfibios() {
+/*public Anfibio[] getAnfibios() {
 		return listado;
-	}
+	}*/
 
 
 	public String getColorPiel() {
