@@ -34,7 +34,7 @@ public class Animal {
 		
 	
 		
-		return	"Mamiferos: " + (Mamifero.getMamiferos().size() + 1) + '\n' +  "Aves: " + (Ave.getAves().size()+2) + '\n' + "Reptiles: " + (Reptil.getReptiles().size()+1) + '\n' + "Peces: " + (Pez.getPeces().size()+1) + '\n' +"Anfibios: " +  (Anfibio.getAnfibios().size()+1);
+		return	"Mamiferos: " + (Mamifero.getMamiferos().size() ) + '\n' +  "Aves: " + (Ave.getAves().size()) + '\n' + "Reptiles: " + (Reptil.getReptiles().size()) + '\n' + "Peces: " + (Pez.getPeces().size()) + '\n' +"Anfibios: " +  (Anfibio.getAnfibios().size());
 	
 	}
 	
