@@ -29,8 +29,8 @@ public class Mamifero extends Animal  {
 		super.totalAnimales++;
 		
 		
-		int longitud_Array = listado.length;
-		listado[longitud_Array] = new Mamifero(nombre,edad,habitat,genero,pelaje,patas); 
+		//int longitud_Array = listado.length;
+		//listado[longitud_Array] = new Mamifero(nombre,edad,habitat,genero,pelaje,patas); 
 	
 	
 	}

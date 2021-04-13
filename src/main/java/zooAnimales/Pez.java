@@ -25,8 +25,8 @@ public class Pez extends Animal  {
 	
 		
 		
-		int longitud_Array = listado.length;
-		listado[longitud_Array] = new Pez(nombre,edad,habitat,genero,colorEscamas,cantidadAletas); 
+		//int longitud_Array = listado.length;
+		//listado[longitud_Array] = new Pez(nombre,edad,habitat,genero,colorEscamas,cantidadAletas); 
 		
 		
 	}

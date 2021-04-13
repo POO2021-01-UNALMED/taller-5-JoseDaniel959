@@ -25,8 +25,8 @@ public class Reptil extends Animal  {
 		super.totalAnimales++;
 	
 
-		int longitud_Array = listado.length;
-		listado[longitud_Array] = new Reptil(nombre,edad,habitat,genero,colorEscamas,largoCola); 
+		//int longitud_Array = listado.length;
+		//listado[longitud_Array] = new Reptil(nombre,edad,habitat,genero,colorEscamas,largoCola); 
 		
 	}
 

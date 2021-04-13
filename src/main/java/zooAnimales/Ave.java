@@ -14,16 +14,13 @@ public class Ave extends Animal {
 		super.edad =edad;
 		super.habitat =habitat;
 		super.genero =genero;
-		this.listado = listado;
-		this.halcones = halcones;
-		this.aguilas = aguilas;
 		this.colorPlumas = colorPlumas;
 		super.totalAnimales++;
 	
 	
-		int longitud_Array = listado.length;
+		//int longitud_Array = listado.length;
 		
-		listado[longitud_Array] = new Ave(nombre,edad,habitat,genero,colorPlumas); 
+		//listado[longitud_Array] = new Ave(nombre,edad,habitat,genero,colorPlumas); 
 	
 	}
 	
