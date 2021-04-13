@@ -74,8 +74,8 @@ public class Animal {
 			//"Mi nombre es paloma, tengo una edad de 5, habito en ciudad y mi genero es F"
 	}
 
-	/*
-	public static void main(String[] args) {
+	
+	/*public static void main(String[] args) {
 		
 		new Anfibio();
 		new Anfibio();
